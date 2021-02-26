@@ -1,0 +1,16 @@
+{
+    "list_1" : [
+        {"value": "To do 1", "state": true},
+        {"value": "To do 2", "state": false},
+        {"value": "To do 3", "state": false},
+        {"value": "To do 4", "state": true},
+        {"value": "To do 5", "state": false}
+    ],
+    "list_2" : [
+       {"value": "item 1", "state": true},
+       {"value": "item 2", "state": false},
+       {"value": "item 3", "state": false},
+       {"value": "item 4", "state": true},
+       {"value": "item 5", "state": false}
+    ]
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Poppins:wght@300;400&family=Roboto&family=RocknRoll+One&display=swap');
+
+body{
+  background-color: yellow;
+  font-family: 'Poppins', sans-serif;
+  margin: 70px 20%;
+  
+}
+
+h1, h2, h3, h4 {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+#root{
+
+}
+
+
+.item{
+  display: flex;
+  jusitfy-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  border-radius: 4px;
+}
+
+.item p{
+  flex-grow: 1;
+}
+
+.item i{
+  display: none;
+  color: rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.item:hover i {
+  display: block;
+}
+
+.item:hover .square{
+  background-color: rgba(0,0,0,0.03);
+  border: 2px solid rgba(0,0,0,0.2);
+  box-size: border;
+}
+
+.square{
+  border: 1px solid rgba(0,0,0,0.3);;
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex !important;
+  justify-content: center;
+  color: rgba(0,0,0,0.5);
+  align-items: center;
+  cursor: pointer;
+}
+
+.square.checked, .square:hover{
+
+  background-size:cover;
+  background-color: yellow;
+  overflow: visible;
+  padding: 2px;
+}
+
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  border-radius: 12px;
+  bottom: 0px;
+}
+
+.hidden{
+  display: none;
+}
+
+input{
+  height: 30px; 
+  flex-grow: 1;
+  border: none;
+  font-size: 17px;
+  background-color: yellow;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+
+}
+
+input:focus{
+  outline: none;
+  opacity: 0.8
+}
+
+input::placeholder{
+
+  color: rgba(0,0,0,0.3);
+}
+
+.btn{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.new .square{
+  opacity: 0.3;
+}

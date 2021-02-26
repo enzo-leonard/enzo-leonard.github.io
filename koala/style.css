@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Open+Sans:wght@400;600;700&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(243, 243, 248)
+}
+
+h1, h2 {
+  font-family: 'East Sea Dokdo', cursive;
+  color: #3f72af;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+b {
+  color: #d56363;
+}
+
+h1 b{
+  color: pink;
+  background-color: white;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #ff577f;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 6px;
+}
+
+img{
+  width: 200px;
+  border-radius: 100px;
+}
+
+div{
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  margin: 60px;
+  border-radius: 6px;
+}
+
+div:hover{
+   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+
+
+
+
