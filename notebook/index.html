@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+</head>
+<body>
+    <body class="bg-gray-100">
+        <div class="bg-white md:flex hidden p-4 h-20 sticky top-0 shadow justify-between items-center ">
+          <h2>Portfolio</h2>
+          <div>
+            <a class="border p-4 cursor-pointer rounded hover:bg-gray-200">Mes projets</a>
+            <a class="border p-4 cursor-pointer rounded hover:bg-gray-200">Me contacter</a>
+          </div>
+        </div>
+        <div class="shadow p-12 m-6 md:mx-24 text-center rounded-xl bg-white hover:shadow-xl">
+          <h1 class="text-3xl">Hi I'm <span class="text-indigo-600">Enzo</span></h1>
+          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQH3vNV9ERb56Q/profile-displayphoto-shrink_400_400/0/1603955055885?e=1620864000&v=beta&t=B98Ao7lIxt9fv46jZhlvgODDOAxu56pKkRyorgGQ67g" class="rounded-full mx-auto my-2 h-44 ">
+          <p class="text-gray-500 italic">A little description</p>
+          <a class="px-4 py-2 bg-purple-600 text-white cursor-pointer inline-block my-2 rounded">Contactez-moi</a>
+        </div>
+      
+        <div class="shadow p-12 m-6 md:mx-24 rounded-xl bg-white hover:shadow-xl">
+          <h2 class="text-indigo-500 "><i class="fas fa-bullseye"></i> Mes objectifs</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        
+        <div class="shadow p-12 m-6 md:mx-24 rounded-xl bg-white hover:shadow-xl">
+            <h2 class="text-pink-500 "><i class="fas fa-tasks mr-4"></i>Mes projets</h2>
+          <div class="grid gap-x-8 gap-y-4 md:grid-cols-3 grid-cols-1 mt-2">
+            <div class="h-44 bg-yellow-500 rounded-xl flex justify-center items-center text-white"><h3>Projet 1</h3></div>
+            <div class="h-44 bg-red-500 rounded-xl flex justify-center items-center text-white"><h3>Projet 2</h3></div>
+            <div class="h-44 bg-blue-500 rounded-xl flex justify-center items-center text-white"><h3>Projet 3</h3></div>
+          </div>
+        </div>
+      
+        <div class="shadow p-12 m-6 md:mx-24 rounded-xl bg-white hover:shadow-xl">
+            <h2 class="text-green-500"><i class="fas fa-laptop-code mr-2"></i>Mes compétences</h2>
+            <ul>
+              <li><b>UI / UX design</b>: Figma, whimsical</li>
+              <li><b>Développement Front-end</b> React, React-Native</li>
+              <li><b>Développement Back-end</b>: Ruby on rails, PHP</li>
+            </ul>
+        </div>
+        
+        <div class="bg-indigo-600 p-4 text-white">
+          <h2>Me contacter</h2>
+          <form action="mailto:enzoleonard96@gmail.com" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br>
+      E-mail:<br>
+      <input type="text" name="mail"><br>
+      Comment:<br>
+      <input type="text" name="comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+      </form>
+        </div>
+      
+      </body>
+</body>
+</html>
