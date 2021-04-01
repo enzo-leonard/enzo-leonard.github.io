@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+  margin: 0px;
+  font-family: 'Roboto';
+  background-color: #e4f3fc;
+  color: #0d335d;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins';
+  color: #1a508b;
+}
+
+
+h1{
+  font-size: 40px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+
+section{
+  padding: 50px 20%;
+}
+
+
+img{
+   object-fit: cover;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+
+/* SECTION HERO*/
+#hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero img{
+  height: 40vh;
+}
+
+
+.btn{
+  border-radius: 4px;
+  display: inline-block;
+  padding: 8px 12px;
+  font-family: 'Poppins';
+  background-color: #269BB5;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #156C7E;
+}
+
+.italic-gray{
+  font-style: italic;
+  color: #6c8c9f;
+  margin-top: -16px;
+}
+
+
+/* SECTION STARS*/
+.card{
+  width: 30%;
+  height: 200px;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 3px black;
+  border-radius: 5px;
+
+
+}
+
+.card h3 {
+  color: white;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bg-van-1{
+  background-image: url('https://images.unsplash.com/photo-1535655685871-dc8158ff167e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+/* SECTION PRODUCT */
+
+.card-product{
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.card-product img{
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+
+}
+
+/* SECTION FEATURE*/
+
+.card-line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #b4bfdb;
+  overflow: hidden;
+}
+
+
+.text-container{
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.card-line img{
+  height: 200px;
+  width: 40%;
+}
